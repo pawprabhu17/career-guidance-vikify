@@ -1,0 +1,50 @@
+/* Body */
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #E0E0E0;
+}
+
+/* Main Container */
+.centered {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#signup-button{
+  box-shadow: 4px 5px 5px #2E7D32;
+}
+
+/* Sign Up Modal */
+#signUp .form {
+	border-radius: 5px;
+	border: 1px solid black;
+	background-color: #B2EBF2;	
+}
+
+/* Home */
+#mission{
+	border:1px solid black;
+	 box-shadow: 10px 10px 8px #888888;
+}
+
+/* Carousel Slide */
+.wel{
+    background:#000000;
+}
+.carousel-indicators{
+    cursor:pointer;
+}
+
+/* Media Query for Sign Up and Contact Modal */
+@media only screen  and (min-width :770px) {
+#signUp .signUp{
+	margin-top: 6%;
+	left:37%;
+	}
+#contact{
+	margin-top: 6%;
+	left:25%;
+	}
+}
